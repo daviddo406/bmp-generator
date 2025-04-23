@@ -8,7 +8,7 @@ Stripes::Stripes(int numStripes){
 
 Pixel Stripes::Generate(int x, int y){
     Pixel pixel;
-    pixel.Red = (x) * (_numStripes / 2);
+    pixel.Red = (x) * (_numStripes);
     pixel.Green = 0;
     pixel.Blue = 0;
     return pixel;
